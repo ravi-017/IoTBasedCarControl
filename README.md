@@ -1,2 +1,2 @@
 # IoTBasedCarControl
-A Wi-Fi-enabled remote control car using NodeMCU ESP8266 and Blynk IoT platform 
+A Wi-Fi-enabled remote control car built with NodeMCU and BLynk IoT, enabling wireless smartphone-based movement control
