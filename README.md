@@ -1,7 +1,7 @@
 # IoTBasedCarControl
 A Wi-Fi-enabled remote control car built with NodeMCU and BLynk IoT, enabling wireless smartphone-based movement control
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - To develop a Wi-Fi-controlled car using NodeMCU and DC motors
 - To implement real-time motion control via a smartphone interface
@@ -10,17 +10,17 @@ A Wi-Fi-enabled remote control car built with NodeMCU and BLynk IoT, enabling wi
 
 ---
 
-## 🧾 Key Features
+##  Key Features
 
-- 📱 Smartphone-based wireless control (Forward, Backward, Left, Right, Stop)
-- 📶 Wi-Fi connectivity using NodeMCU ESP8266
-- ⚙️ Speed control using a slider widget
-- 🧠 Simple and modular code written in Arduino (C++)
-- 🎓 Suitable for academic demonstrations, exhibitions, and prototyping
+-  Smartphone-based wireless control (Forward, Backward, Left, Right, Stop)
+-  Wi-Fi connectivity using NodeMCU ESP8266
+-  Speed control using a slider widget
+-  Simple and modular code written in Arduino (C++)
+-  Suitable for academic demonstrations, exhibitions, and prototyping
 
 ---
 
-## 🔧 Hardware Requirements
+##  Hardware Requirements
 
 | Component                | Quantity |
 |--------------------------|----------|
@@ -34,7 +34,7 @@ A Wi-Fi-enabled remote control car built with NodeMCU and BLynk IoT, enabling wi
 
 ---
 
-## 🔌 Circuit Diagram Overview
+##  Circuit Diagram Overview
 
 | NodeMCU Pin | L298N Motor Driver |
 |-------------|---------------------|
@@ -49,7 +49,7 @@ Ensure common GND between NodeMCU, motor driver, and power supply.
 
 ---
 
-## 📲 Blynk App Configuration (Legacy)
+##  Blynk App Configuration (Legacy)
 
 1. Install **Blynk Legacy** app from Play Store / App Store.
 2. Create a new project:
@@ -66,7 +66,7 @@ Ensure common GND between NodeMCU, motor driver, and power supply.
 
 ---
 
-## 🧠 Arduino IDE Setup
+##  Arduino IDE Setup
 
 1. Install the following libraries from Library Manager:
    - `Blynk`
@@ -77,7 +77,7 @@ Ensure common GND between NodeMCU, motor driver, and power supply.
    char ssid[] = "YourWiFiSSID";
    char pass[] = "YourWiFiPassword";
 
-## 🔮 Future Upgrades
+##  Future Upgrades
 
 This project provides a strong foundation for IoT-based robotics and can be further enhanced with the following features:
 
