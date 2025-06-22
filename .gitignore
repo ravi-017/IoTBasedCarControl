@@ -1,0 +1,32 @@
+# === Arduino Build Files ===
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+*.d
+*.o
+*.a
+
+# === Arduino Backup / Temp Files ===
+*.bak
+*.tmp
+*.log
+*.dep
+
+# === OS/System Files ===
+.DS_Store
+Thumbs.db
+
+# === IDE Metadata (Optional Editors) ===
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# === Arduino CLI Configuration (if used) ===
+arduino.json
+arduino-cli.yaml
+
+# === Build / Cache Folders (optional) ===
+build/
+cache/
